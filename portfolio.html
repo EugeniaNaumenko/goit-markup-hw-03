@@ -19,19 +19,17 @@
 
   <body>
     <!--Header-->
-    <header class="header-section section">
-      <div class="container">
+    <header class="header-section">
+      <div class="container header-container">
         <a class="logo-black link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
 
         <nav class="navigation">
           <ul class="navigation-list list">
             <li class="navigation-item">
-              <a class="navigation-link link" href="./index.html">Студия</a>
+              <a class="navigation-link link" href="./index.html" aria-current="page">Студия</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link link current" href="./portfolio.html" aria-current="page"
-                >Портфолио</a
-              >
+              <a class="navigation-link link current" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link link" href="./contacts.html">Контакты</a>
@@ -55,7 +53,7 @@
       <!--Portfolio filter-->
       <section class="portfofio-filter-section section">
         <div class="container">
-          <h1 hidden>Портфолио</h1>
+          <h1 class="visually-hidden">Портфолио</h1>
 
           <ul class="portfofio-filter-menu list">
             <li class="portfolio-filter-item">
@@ -89,8 +87,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="filter-heading">Технокряк</h2>
-                <p class="filter-text">Веб-сайт</p>
+                <div class="filter-wrap">
+                  <h2 class="filter-heading">Технокряк</h2>
+                  <p class="filter-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="filter-item">
@@ -102,10 +102,12 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="filter-heading">
-                  Постер <span lang="en">New Orlean vs Golden Star</span>
-                </h2>
-                <p class="filter-text">Дизайн</p>
+                <div class="filter-wrap">
+                  <h2 class="filter-heading">
+                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                  </h2>
+                  <p class="filter-text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="filter-item">
@@ -117,8 +119,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="filter-heading">Ресторан <span lang="en">Seafood</span></h2>
-                <p class="filter-text">Приложение</p>
+                <div class="filter-wrap">
+                  <h2 class="filter-heading">Ресторан <span lang="en">Seafood</span></h2>
+                  <p class="filter-text">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="filter-item">
@@ -130,8 +134,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="filter-heading">Проект <span lang="en">Prime</span></h2>
-                <p class="filter-text">Маркетинг</p>
+                <div class="filter-wrap">
+                  <h2 class="filter-heading">Проект <span lang="en">Prime</span></h2>
+                  <p class="filter-text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="filter-item">
@@ -143,8 +149,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="filter-heading">Проект <span lang="en">Boxes</span></h2>
-                <p class="filter-text">Приложение</p>
+                <div class="filter-wrap">
+                  <h2 class="filter-heading">Проект <span lang="en">Boxes</span></h2>
+                  <p class="filter-text">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="filter-item">
@@ -156,8 +164,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="filter-heading" lang="en">Inspiration has no Borders</h2>
-                <p class="filter-text">Веб-сайт</p>
+                <div class="filter-wrap">
+                  <h2 class="filter-heading" lang="en">Inspiration has no Borders</h2>
+                  <p class="filter-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="filter-item">
@@ -169,8 +179,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="filter-heading">Издание <span lang="en">Limited Edition</span></h2>
-                <p class="filter-text">Дизайн</p>
+                <div class="filter-wrap">
+                  <h2 class="filter-heading">Издание <span lang="en">Limited Edition</span></h2>
+                  <p class="filter-text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="filter-item">
@@ -182,8 +194,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="filter-heading">Проект <span lang="en">LAB</span></h2>
-                <p class="filter-text">Маркетинг</p>
+                <div class="filter-wrap">
+                  <h2 class="filter-heading">Проект <span lang="en">LAB</span></h2>
+                  <p class="filter-text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="filter-item">
@@ -195,8 +209,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="filter-heading" lang="en">Growing Business</h2>
-                <p class="filter-text">Приложение</p>
+                <div class="filter-wrap">
+                  <h2 class="filter-heading" lang="en">Growing Business</h2>
+                  <p class="filter-text">Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
